@@ -1,7 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://corfk0ixlednb"]
+[gd_scene load_steps=3 format=3 uid="uid://corfk0ixlednb"]
 
 [ext_resource type="PackedScene" uid="uid://cnn5ktkduujto" path="res://map.blend" id="1_a202f"]
+[ext_resource type="PackedScene" uid="uid://0n0jhyf4xjur" path="res://soldiers-rocket-launcher/source/model.gltf" id="2_noarx"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="map" parent="." instance=ExtResource("1_a202f")]
+
+[node name="blockbench_export" parent="." instance=ExtResource("2_noarx")]
